@@ -27,6 +27,7 @@ public enum DatabaseError: LocalizedError {
 
     case invalidInstance
     case requestFailed
+    case alreadyDeleted
   
     public var errorDescription: String? {
         switch self {
