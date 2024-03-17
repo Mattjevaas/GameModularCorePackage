@@ -32,6 +32,7 @@ public enum DatabaseError: LocalizedError {
         switch self {
             case .invalidInstance: return "Database can't instance."
             case .requestFailed: return "Your request failed."
+            case .alreadyDeleted: return "Data already deleted"
         }
     }
 }
